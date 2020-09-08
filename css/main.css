@@ -1,0 +1,25 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Genral Style */
+body{
+    font-family: 'Hacen Algeria';
+}
+h1, h2, h3, h4{
+    font-family: 'Hacen Saudi Arabia';
+}
+.container{
+    width: 768px !important;
+    background-color: #000;
+    color: #fff;
+}
+@media(max-width: 768px){
+    .container{
+        max-width: 100%;
+        width: 100% !important;
+    }
+}
