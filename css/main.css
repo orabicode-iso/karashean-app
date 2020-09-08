@@ -13,13 +13,12 @@ h1, h2, h3, h4{
     font-family: 'Hacen Saudi Arabia';
 }
 .container{
-    width: 768px !important;
-    background-color: #000;
-    color: #fff;
+    width: 576px !important;
 }
 @media(max-width: 768px){
     .container{
         max-width: 100%;
         width: 100% !important;
+        padding: 0;
     }
 }

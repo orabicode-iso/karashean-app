@@ -1,0 +1,6 @@
+.login{
+    background: url(../../img/splash.png) no-repeat top center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
