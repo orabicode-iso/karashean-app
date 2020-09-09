@@ -4,7 +4,7 @@
     position: relative;
 }
 .form-app{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding: 30px 0;
 }
@@ -16,8 +16,44 @@
     border-radius: 30px;
     background-color: transparent;
     border: 2px solid #fff;
-    padding: 10px;
+    padding: 13px 10px;
+    outline: none;
+    color: #fff;
 }
+.form-app .form-box .control::placeholder{
+    color: #fff;
+    transition: color 0.5s;
+}
+.form-app .form-box .control:focus::placeholder {
+    color: transparent;
+}
+.form-app .form-box .form-button{
+    background-color: #ffcc00;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border: 0;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0, 0.6);
+    font-family: 'Hacen Saudi Arabia';
+    margin-top: 10px;
+}
+/* Login Classes */
+.app-login-form{
+    margin-top: 40px;
+}
+.form-app .login-info{
+    padding: 20px 0;
+}
+.form-app .login-info a{
+    color: #fff;
+}
+.form-app .login-info span{
+    color: #ffcc00;
+    margin-left: 5px;
+}
+
 @media(max-width: 768px){}
 @media(max-width: 576px){}
 @media(max-width: 480px){}

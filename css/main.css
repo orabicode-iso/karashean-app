@@ -40,11 +40,11 @@ img{
 .heading-screen{
     background-color: #fff;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.61);
-    border-top: 10px solid #606060;
+    border-top: 10px solid #5f5f5f;
     padding-bottom: 5px;
 }
 .heading-screen .heading-icon{
-    background: #666666;
+    background: #5f5f5f;
     width: 70px;
     height: 60px;
     line-height: 55px;
