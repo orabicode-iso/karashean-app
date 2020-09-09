@@ -21,8 +21,19 @@ h1, h2, h3, h4{
 img{
     width: 100%;
 }
+.text{
+    font-size: 16px;
+    color: #767777;
+    line-height: 1.7;
+    text-align: justify;
+}
 .container{
     width: 576px !important;
+}
+.screen-bg{
+    background: url(../../img/splash.png) no-repeat top center;
+    width: 100%;
+    position: relative;
 }
 @media(max-width: 768px){
     .container{
@@ -59,4 +70,13 @@ img{
 .heading-screen .heading-title{
     color: #666666;
     font-size: 25px;
+}
+/* Start Screen White */
+.screen-white{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.47);
 }
