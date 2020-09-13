@@ -3,6 +3,17 @@
     margin: 0 auto;
     padding: 30px 0;
 }
+@media(max-width: 375px){
+    .form-app{
+        width: 80%;
+        padding: 15px 0;
+    }
+}
+@media(max-width: 320px){
+    .form-app{
+        width: 80%;
+    }
+}
 .form-app .form-box{
     margin-bottom: 15px;
 }
@@ -14,6 +25,57 @@
     padding: 13px 10px;
     outline: none;
     color: #fff;
+}
+.form-app .login-form-box{
+    position: relative;
+}
+.form-app .login-form-box i{
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    color: #fff;
+}
+@media(max-width: 768px){
+    .form-app .login-form-box i{
+        top: 3px;
+    }
+}
+.form-app .login-form-box i::before{
+    font-size: 30px;
+}
+@media(max-width: 768px){
+    .form-app .login-form-box i::before{
+        font-size: 25px;
+    }
+}
+@media(max-width: 480px){
+    .form-app .login-form-box i::before{
+        font-size: 23px;
+    }
+}
+.form-app .login-form-box .control{
+    padding-right: 40px !important;
+}
+@media(max-width: 768px){
+    .form-app .login-form-box .control{
+        padding-right: 35px !important;
+    }
+}
+@media(max-width: 480px){
+    .form-app .login-form-box .control{
+        padding-right: 32px !important;
+    }
+}
+@media(max-width: 768px){
+    .form-app .form-box .control{
+        padding: 8px 15px;
+    }
+}
+@media(max-width: 480px){
+    .form-app .form-box .control{
+        padding: 6px 10px;
+        border-radius: 20px;    
+    }
 }
 .form-app .form-box .control::placeholder{
     color: #fff;
@@ -34,12 +96,41 @@
     font-family: 'Hacen Saudi Arabia';
     margin-top: 10px;
 }
+@media(max-width: 480px){
+    .form-app .form-box .form-button{
+        padding: 10px 0;
+        font-size: 17px;
+    }
+}
+.form-app .form-box textarea{
+    height: 100px;
+}
 /* Login Classes */
 .app-login-form{
     margin-top: 40px;
 }
 .form-app .login-info{
     padding: 20px 0;
+}
+@media(max-width: 576px){
+    .form-app .login-info{
+        padding: 70px 0;
+    }
+}
+@media(max-width: 480px){
+    .form-app .login-info{
+        padding: 80px 0;
+    }
+}
+@media(max-width: 375px){
+    .form-app .login-info{
+        padding: 60px 0;
+    }
+}
+@media(max-width: 320px){
+    .form-app .login-info{
+        padding: 20px 0;
+    }
 }
 .form-app .login-info a{
     color: #fff;
@@ -48,7 +139,79 @@
     color: #ffcc00;
     margin-left: 5px;
 }
+/* Start Contact */
+.contact-heading{
+    margin: 10px 0;
+    padding: 8px 15px;
+    background: #000;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 30px 0 0 30px;
+}
+@media(max-width: 375px){
+    .contact-heading{
+        width: 35%;
+    }
+}
+@media(max-width: 320px){
+    .contact-heading{
+        width: 40%;
+    }
+}
+.contact-heading .contact-heading-title{
+    color: #3d7993;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+@media(max-width: 480px){
+    .contact-heading .contact-heading-title{
+        font-size: 17px;
+    }
+}
 
+.contact-info{
+    width: 70%;
+    background-color: #dadada;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+}
+@media(max-width: 375px){
+    .contact-info{
+        width: 80%;
+    }
+}
+@media(max-width: 320px){
+    .contact-info{
+        width: 90%;
+    }
+}
+.contact-info .contact-info-list .contact-info-item{
+    background-color: #666666;
+    margin-bottom: 3px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    justify-content: space-between;
+    padding: 3px 10px;
+}
+.contact-info .contact-info-list .contact-info-item .contact-item-title{
+    color: #ffcc00;
+}
+.contact-info .contact-info-list .contact-info-item .contact-item-content i{
+    color: #dadada;
+    margin-right: 2px;
+}
+.contact-info .contact-info-list .contact-info-item .contact-item-content .contact-item-value{
+    color: #fff;
+    font-family: 'Hacen Saudi Arabia';
+    font-size: 15px;
+}
+.contact .app-contact-form{
+    padding-top: 0 !important;
+}
 @media(max-width: 768px){}
 @media(max-width: 576px){}
 @media(max-width: 480px){}
