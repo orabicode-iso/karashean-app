@@ -1,4 +1,4 @@
-$(' .navigation-bar').on('click', function(){
+$(' .navigation-bar .flaticon-list').on('click', function(){
     $('.fixed-menu').toggleClass('is-visible');
     if($('.fixed-menu').hasClass('is-visible')){
         $('.fixed-menu').animate({
@@ -10,3 +10,22 @@ $(' .navigation-bar').on('click', function(){
         }, 500);
     }
 })
+
+
+
+
+
+
+const realFileBtn = document.getElementById('real-file');
+const customBtn = document.getElementById('custom-button');
+const customText = document.getElementById('custom-text');
+customBtn.addEventListener('click', function(){
+    realFileBtn.click();
+});
+realFileBtn.addEventListener('change', function(){
+    if(realFileBtn.value){
+        customText.innerHTML = realFileBtn.value;
+    }else{
+        customText.innerHTML = 'لم يتم اختيار صورة';
+    }
+});

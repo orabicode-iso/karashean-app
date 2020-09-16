@@ -1,3 +1,10 @@
+.tab-bar{
+    /*
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    */
+}
 .tab-bar-list{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -51,3 +58,4 @@
         font-size: 13px;
     }
 }
+

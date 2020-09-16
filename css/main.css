@@ -39,7 +39,7 @@ p{
     margin: 0;
 }
 input{
-    line-height: 0 !important;
+    line-height: 1.2 !important;
 }
 textarea{
     line-height: 1.5 !important;
@@ -57,7 +57,7 @@ i::before, i::after{
 }
 @media(max-width: 425px){
     .screen-bg{
-        background-size: contain;
+        background-size: cover;
     }
 }
 @media(min-width: 769px){
@@ -98,7 +98,7 @@ i::before, i::after{
     .heading-screen .heading-icon{
         width: 60px;
         height: 50px;
-        line-height: 45px;
+        line-height: 55px;
         border-radius: 0 0 15px 15px;
         margin-bottom: 5px;
     }
@@ -187,4 +187,12 @@ i::before, i::after{
 }
 .main-padding{
     padding: 50px 0 0;
+}
+.custom-height{
+    height: 100vh !important;
+}
+.custom-height .tab-bar{
+    position: absolute !important;
+    bottom: 0 !important;
+    width: 100% !important;
 }
